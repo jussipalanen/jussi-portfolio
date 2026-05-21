@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jussi Alanen</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'system-ui', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="min-h-screen bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 font-sans">
+    <main class="min-h-screen flex items-center justify-center px-6">
+      <div class="text-center max-w-2xl">
+
+        <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-blue-500/30 bg-blue-500/10 px-4 py-1.5 text-sm text-blue-300">
+          <span class="relative flex h-2 w-2">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-400"></span>
+          </span>
+          Opening soon
+        </div>
+
+        <h1 class="text-5xl sm:text-6xl font-bold text-white tracking-tight mb-4">
+          Jussi Alanen
+        </h1>
+
+        <p class="text-lg sm:text-xl text-slate-400 leading-relaxed">
+          Portfolio under construction &mdash; something great is on its way.
+        </p>
+
+      </div>
+    </main>
+  </body>
+</html>
